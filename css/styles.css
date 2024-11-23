@@ -70,6 +70,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.15;
+  margin-bottom:20px;
 }
 
 /* Оформление header  */
@@ -515,13 +516,18 @@ border-radius: 4px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.link-list-footer .subtitle {
-  margin: 0;
-  margin-top: 20px;
-  margin-bottom: 9px;
 
-  color: var(--white-text-color);
+.street-address{
+  display: inline-block;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--white-text-color);
+font-style: normal;
+text-decoration: none;
+margin-top:20px ;
 }
+
 
 .link-list-footer .ads:not(:last-child) {
   margin-bottom: 9px;
@@ -533,8 +539,8 @@ border-radius: 4px;
 
 .link-list-footer .link:hover,
 .link-list-footer .link :focus,
-.link-list-footer .subtitle:hover,
-.link-list-footer .subtitle:focus {
+.link-list-footer .street-address:hover,
+.link-list-footer .street-address:focus {
   color: var(--accent-color);
 }
 
